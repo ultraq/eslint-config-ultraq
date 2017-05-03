@@ -1,0 +1,23 @@
+{
+	"rules": {
+		"brace-style": ["error", "stroustrup"],
+		"comma-dangle": "error",
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+		"no-unused-vars": ["error", {
+			"args": "none"
+		}],
+		"no-var": "error",
+		"quotes": ["error", "single", "avoid-escape"],
+		"semi": "error",
+		"space-before-function-paren": ["error", "never"],
+		"strict": "error",
+		"valid-jsdoc": ["error", {
+			"prefer": {
+				"return": "return"
+			},
+			"requireParamDescription": false,
+			"requireReturn": false,
+			"requireReturnDescription": false
+		}]
+	}
+}
