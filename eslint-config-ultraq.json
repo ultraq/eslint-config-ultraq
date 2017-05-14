@@ -7,7 +7,10 @@
 			"args": "none"
 		}],
 		"no-var": "error",
-		"quotes": ["error", "single", "avoid-escape"],
+		"quotes": ["error", "single", {
+			"allowTemplateLiterals": true,
+			"avoidEscape": true
+		}],
 		"semi": "error",
 		"space-before-function-paren": ["error", "never"],
 		"strict": "error",
