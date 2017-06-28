@@ -3,6 +3,9 @@
 		"brace-style": ["error", "stroustrup"],
 		"comma-dangle": "error",
 		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+		"no-trailing-spaces": ["error", {
+			"ignoreComments": true
+		}],
 		"no-unused-vars": ["error", {
 			"args": "none"
 		}],

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-ultraq",
-	"version": "1.0.2",
+	"version": "2.0.0",
 	"description": "ESLint config for all of my JavaScript projects",
 	"author": "Emanuel Rabina <emanuelrabina@gmail.com> (http://www.ultraq.net.nz/)",
 	"license": "Apache-2.0",
@@ -14,6 +14,9 @@
 	],
 	"main": "eslint-config-ultraq.json",
 	"peerDependencies": {
-		"eslint": ">=3"
+		"eslint": ">=4.1"
+	},
+	"devDependencies": {
+		"eslint": "^4.1.1"
 	}
 }
