@@ -19,7 +19,7 @@
 		"strict": "error",
 		"valid-jsdoc": ["error", {
 			"prefer": {
-				"return": "return"
+				"returns": "return"
 			},
 			"requireParamDescription": false,
 			"requireReturn": false,
