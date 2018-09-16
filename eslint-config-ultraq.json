@@ -4,6 +4,9 @@
 		"comma-dangle": ["error", {
 			"functions": "never"
 		}],
+		"no-constant-condition": ["error", {
+			"checkLoops": false
+		}],
 		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 		"no-trailing-spaces": ["error", {
 			"ignoreComments": true
