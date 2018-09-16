@@ -1,7 +1,9 @@
 {
 	"rules": {
 		"brace-style": ["error", "stroustrup"],
-		"comma-dangle": "error",
+		"comma-dangle": ["error", {
+			"functions": "never"
+		}],
 		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 		"no-trailing-spaces": ["error", {
 			"ignoreComments": true
