@@ -4,6 +4,7 @@
 		"comma-dangle": ["error", {
 			"functions": "never"
 		}],
+		"eqeqeq": "error",
 		"no-constant-condition": ["error", {
 			"checkLoops": false
 		}],
