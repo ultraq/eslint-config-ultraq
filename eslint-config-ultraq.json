@@ -5,6 +5,7 @@
 			"functions": "never"
 		}],
 		"eqeqeq": "error",
+		"indent": ["error", "tab"],
 		"no-constant-condition": ["error", {
 			"checkLoops": false
 		}],
