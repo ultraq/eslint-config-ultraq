@@ -22,7 +22,11 @@
 			"avoidEscape": true
 		}],
 		"semi": "error",
-		"space-before-function-paren": ["error", "never"],
+		"space-before-function-paren": ["error", {
+			"anonymous": "never",
+			"asyncArrow": "always",
+			"named": "never"
+		}],
 		"strict": "error",
 		"valid-jsdoc": ["error", {
 			"prefer": {

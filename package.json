@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-ultraq",
-	"version": "2.3.0",
+	"version": "2.3.1",
 	"description": "ESLint config for all of my JavaScript projects",
 	"author": "Emanuel Rabina <emanuelrabina@gmail.com> (http://www.ultraq.net.nz/)",
 	"license": "Apache-2.0",
