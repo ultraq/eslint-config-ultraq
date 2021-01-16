@@ -4,6 +4,7 @@
 		"comma-dangle": ["error", {
 			"functions": "never"
 		}],
+		"curly": ["error", "all"],
 		"eqeqeq": "error",
 		"indent": ["error", "tab", {
 			"flatTernaryExpressions": true,
