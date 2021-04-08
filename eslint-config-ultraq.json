@@ -22,6 +22,14 @@
 			"args": "none"
 		}],
 		"no-var": "error",
+		"object-curly-newline": ["error", {
+			"ObjectExpression": {
+				"consistent": true
+			}
+		}],
+		"object-property-newline": ["error", {
+			"allowAllPropertiesOnSameLine": true
+		}],
 		"quotes": ["error", "single", {
 			"allowTemplateLiterals": true,
 			"avoidEscape": true
