@@ -12,6 +12,5 @@ forgetting to port them back to previous projects, etc - so it's about time I
 created a shareable ESLint config so I can put this little annoyance to bed.
 
 Made to be used in conjunction with the `eslint:recommended` config, and only
-specifies `rules` and `plugins` that aren't specific to any sort of library or
-framework as it can't make assumptions of the environment or parser for each
-project.
+specifies items that aren't specific to any sort of library or framework as it
+can't make assumptions of the environment or parser for each project.

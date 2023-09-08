@@ -45,18 +45,23 @@
 			"named": "never"
 		}],
 		"strict": "error",
-		"valid-jsdoc": ["error", {
-			"prefer": {
-				"returns": "return"
-			},
-			"requireParamDescription": false,
-			"requireReturn": false,
-			"requireReturnDescription": false
-		}],
 
 		"import/order": ["error", {
 			"groups": [["sibling", "parent"], "builtin", "external"],
 			"newlines-between": "always"
+		}],
+
+		"jsdoc/require-param-description": "off",
+		"jsdoc/require-returns-description": "off",
+		"jsdoc/tag-lines": ["error", "never", {
+			"startLines": 1
 		}]
+	},
+	"settings": {
+		"jsdoc": {
+			"tagNamePreference": {
+				"returns": "return"
+			}
+		}
 	}
 }
