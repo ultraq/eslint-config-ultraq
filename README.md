@@ -2,6 +2,8 @@
 eslint-config-ultraq
 ====================
 
+[![npm](https://img.shields.io/npm/v/eslint-config-ultraq)](https://www.npmjs.com/package/eslint-config-ultraq)
+
 ESLint config for all of my JavaScript projects.
 
 Like other developers out there, I got tired of copy/pasting my ESLint settings
