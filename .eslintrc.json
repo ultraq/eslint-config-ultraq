@@ -1,4 +1,7 @@
 {
+	"plugins": [
+		"import"
+	],
 	"rules": {
 		"brace-style": ["error", "stroustrup"],
 		"comma-dangle": ["error", {
@@ -48,6 +51,11 @@
 			"requireParamDescription": false,
 			"requireReturn": false,
 			"requireReturnDescription": false
+		}],
+
+		"import/order": ["error", {
+			"groups": [["sibling", "parent"], "builtin", "external"],
+			"newlines-between": "always"
 		}]
 	}
 }
