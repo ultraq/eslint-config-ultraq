@@ -52,6 +52,7 @@
 		}],
 
 		"jsdoc/require-param-description": "off",
+		"jsdoc/require-property-description": "off",
 		"jsdoc/require-returns-description": "off",
 		"jsdoc/tag-lines": ["error", "never", {
 			"startLines": 1
