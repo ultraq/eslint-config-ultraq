@@ -30,7 +30,6 @@
 				"consistent": true
 			}
 		}],
-		"object-curly-spacing": ["error", "never"],
 		"object-property-newline": ["error", {
 			"allowAllPropertiesOnSameLine": true
 		}],
