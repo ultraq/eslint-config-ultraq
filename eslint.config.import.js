@@ -1,17 +1,20 @@
 import importPlugin from 'eslint-plugin-import';
 
 /**
+ * Config array of the recommended ESLint import plugin configs, then my own
+ * import configs atop that.
+ *
  * @type {import('eslint').Linter.Config}
  */
-export default {
-	name: 'eslint-config-ultraq/import',
-	extends: [
-		importPlugin.flatConfigs.recommended
-	],
-	rules: {
-		'import/order': ['error', {
-			'groups': [['sibling', 'parent'], 'builtin', 'external'],
-			'newlines-between': 'always'
-		}]
+export default [
+	importPlugin.flatConfigs.recommended,
+	{
+		name: 'eslint-config-ultraq/import',
+		rules: {
+			'import/order': ['error', {
+				'groups': [['sibling', 'parent'], 'builtin', 'external'],
+				'newlines-between': 'always'
+			}]
+		}
 	}
-}
+];
