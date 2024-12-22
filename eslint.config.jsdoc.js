@@ -4,7 +4,7 @@ import jsDoc from 'eslint-plugin-jsdoc';
  * Config array of the recommended ESLint JSDoc plugin configs, then my own
  * JSDoc configs atop that.
  *
- * @type {import('eslint').Linter.Config}
+ * @type {import('eslint').Linter.Config[]}
  */
 export default [
 	jsDoc.configs['flat/recommended'],

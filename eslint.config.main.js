@@ -4,7 +4,7 @@ import js from '@eslint/js';
  * Config array of the ESLint recommended JS set, then my own vanilla ESLint
  * configs atop that.
  *
- * @type {import('eslint').Linter.Config}
+ * @type {import('eslint').Linter.Config[]}
  */
 export default [
 	js.configs.recommended,

@@ -8,7 +8,7 @@ import mainConfig from './eslint.config.main.js';
  *  - import
  *  - jsdoc
  *
- * @type {import('eslint').Linter.Config}
+ * @type {import('eslint').Linter.Config[]}
  */
 export default [
 	...mainConfig,
