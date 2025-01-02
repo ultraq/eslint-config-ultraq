@@ -12,6 +12,9 @@ export default [
 		name: 'eslint-config-ultraq/import',
 		rules: {
 			'import/order': ['error', {
+				'alphabetize': {
+					'order': 'asc'
+				},
 				'groups': [['sibling', 'parent'], 'builtin', 'external'],
 				'newlines-between': 'always'
 			}]
