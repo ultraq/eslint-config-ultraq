@@ -1,4 +1,4 @@
-import importPlugin from 'eslint-plugin-import';
+import {importX} from 'eslint-plugin-import-x';
 
 /**
  * Config array of the recommended ESLint import plugin configs, then my own
@@ -7,11 +7,11 @@ import importPlugin from 'eslint-plugin-import';
  * @type {import('eslint').Linter.Config[]}
  */
 export default [
-	importPlugin.flatConfigs.recommended,
+	importX.flatConfigs.recommended,
 	{
 		name: 'eslint-config-ultraq/import',
 		rules: {
-			'import/order': ['error', {
+			'import-x/order': ['error', {
 				'alphabetize': {
 					'order': 'asc'
 				},
